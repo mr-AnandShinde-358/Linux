@@ -1,0 +1,28 @@
+Script started on 2024-08-21 20:29:29+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="111" LINES="27"]
+                                                                                                               ]0;anand@Anand2003: ~/Desktop/anand/DevOps/Linux Full Course[0m[27m[24m[J[32m┌──([1m[32m[34manand㉿Anand2003[0m[34m[32m)-[[1m[32m[39m~/Desktop/anand/DevOps/Linux Full Course[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36ml[39m[36ml[39m[38;2;153;153;153ms[39m[36ml[36ms[39m[?1l>[?2004l
+Commands.md  fileA  fileB  newFILE  [0m[01;34mnewFolder[0m  sortdemo.txt  typescript  xaa  xab  xac
+                                                                                                               ]0;anand@Anand2003: ~/Desktop/anand/DevOps/Linux Full Course
+[0m[27m[24m[J[32m┌──([1m[32m[34manand㉿Anand2003[0m[34m[32m)-[[1m[32m[39m~/Desktop/anand/DevOps/Linux Full Course[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4mp[24m[4mp[24m[38;2;153;153;153mwd[39m[4mp[39m[4mw[24m[24m[36mp[24m[36mw[36md[39m[?1l>[?2004l
+/home/anand/Desktop/anand/DevOps/Linux Full Course
+                                                                                                               ]0;anand@Anand2003: ~/Desktop/anand/DevOps/Linux Full Course
+[0m[27m[24m[J[32m┌──([1m[32m[34manand㉿Anand2003[0m[34m[32m)-[[1m[32m[39m~/Desktop/anand/DevOps/Linux Full Course[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4me[24m[4me[24m[38;2;153;153;153mgrep "How|summary" xaa[39m[22D[4me[39m[4mc[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [21D[38;2;153;153;153mho "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian book[38;2;153;153;153mw[38;2;153;153;153morm stable" | \[39m[K
+[38;2;153;153;153m  sudo tee /etc/apt/sources.list.d/docker.list [39m[K[A[A[41D[4me[4mc[39m[4mh[24m[24m[36me[24m[36mc[24m[36mh[36mo[39m[39m [33m"[39m[33m"[33mh[39m[K[1B[K[1B[K[A[A[11C[33mh[33me[39m[33me[33ml[39m[33ml[33ml[39m[33ml[33mo[39m[33mo[33mw[39m[33mw[33m"[39m[?1l>[?2004l[1Bhellow
+                                                                                                               ]0;anand@Anand2003: ~/Desktop/anand/DevOps/Linux Full Course
+[0m[27m[24m[J[32m┌──([1m[32m[34manand㉿Anand2003[0m[34m[32m)-[[1m[32m[39m~/Desktop/anand/DevOps/Linux Full Course[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4mc[24m[4mc[24m[38;2;153;153;153md ..[39m[4mc[39m[4ma[24m[39m [39m [39m [38;2;153;153;153mt fileB[39m[24m[36mc[24m[36ma[36ml[39m[39m [39m [39m [39m [39m [39m [?1l>[?2004l
+    August 2024       
+Su Mo Tu We Th Fr Sa  
+             1  2  3  
+ 4  5  6  7  8  9 10  
+11 12 13 14 15 16 17  
+18 19 20 21 22 23 24  
+25 26 27 28 29 30 31  
+                      
+                                                                                                               ]0;anand@Anand2003: ~/Desktop/anand/DevOps/Linux Full Course
+[0m[27m[24m[J[32m┌──([1m[32m[34manand㉿Anand2003[0m[34m[32m)-[[1m[32m[39m~/Desktop/anand/DevOps/Linux Full Course[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[?2004l
+
+Script done on 2024-08-21 20:30:10+05:30 [COMMAND_EXIT_CODE="0"]
