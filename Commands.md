@@ -441,7 +441,72 @@ script # starting recording command when it done press "cltr+d" it command creat
 <summary> how to create a short-cut of a long command in LInux?</summary>
 
 ``` 
-script # starting recording command when it done press "cltr+d" it command create file that name typescript when you can type "cat typescript" run all command you recorded 
+alias <commands >
+```
+
+</details>
+
+## Zip and Unzip of Files and Folders
+
+<details>
+<summary> how to compress a file in Linux</summary>
+
+``` 
+gzip -k <file> # compress file and create zip file original file keep it
+```
+
+</details>
+
+<details>
+<summary> how to decompress a file in Linux</summary>
+
+``` 
+gzip -d <file> # decompress file and remove zip file 
+gunzip <file>
+```
+
+</details>
+
+
+<details>
+<summary> how to compress a folder in Linux</summary>
+
+``` 
+tar -czf myfile.tar.zip myfiles
+czf  # compreess zip format folder
+```
+
+</details>
+
+<details>
+<summary> how to decompress a folder in Linux</summary>
+
+``` 
+tar -xzf myfile.tar.zip 
+xzf  # extract zip  folder
+```
+
+</details>
+
+<details>
+<summary> how to compress multiple files in one zipped file in Linux</summary>
+
+``` 
+zip myfiles.zip file1 file2
+
+# for unzip file
+unzip <myfile.zip>
+```
+
+</details>
+
+<details>
+<summary> how to list files in zipped file?</summary>
+
+``` 
+# when you want kwon how many file in ziped file and there name use this command
+
+unzip -l myfiles.zip
 ```
 
 </details>
