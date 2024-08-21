@@ -564,3 +564,21 @@ yum/dnf list available
 ```
 
 </details>
+<details>
+<summary> how to start stop service  on Linux?</summary>
+
+``` 
+systemctl start/stop service_name
+```
+
+</details>
+
+
+<details>
+<summary> how to list all service on Linux?</summary>
+
+``` 
+systemctl list-units --type=service --all
+```
+
+</details>
