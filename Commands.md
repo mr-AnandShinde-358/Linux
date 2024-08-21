@@ -510,3 +510,57 @@ unzip -l myfiles.zip
 ```
 
 </details>
+
+## Downloading Files from Internet
+
+<details>
+<summary> how to download a file from internet?</summary>
+
+``` 
+wget URL_of_file 
+
+wget -O opt_file.txt URL_Of_files # when you want to change file name in this case file.txt
+```
+
+</details>
+
+<details>
+<summary> how to call an API on Linux?</summary>
+
+``` 
+#you can get request using this command
+
+curl http://numbersapi.com/random
+```
+
+</details>
+
+
+<details>
+<summary> how to install an application on Linux?</summary>
+
+``` 
+apt or yum/dnf
+```
+
+</details>
+
+<details>
+<summary> how to check if an application is installed or not on linux?</summary>
+
+``` 
+rpm -qa | grep application name
+dnf list installed
+```
+
+</details>
+
+<details>
+<summary> how to list available packages to install on Linux?</summary>
+
+``` 
+apt search <package_name>
+yum/dnf list available
+```
+
+</details>
