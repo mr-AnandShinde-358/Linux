@@ -1,6 +1,8 @@
-<!-- 
+<!-- 1. is javascript single threaded or multi-threaded ?
 <details>
-<summary></summary>
+<summary>click to expand!</summary>
+Javascript is a single-threaded language. This means it has one call stack and one memory heap. As expected, it executes code in order and must finish executing a piece code before moving onto the next. This is what allows Javascript to be  non-blocking and use async operations.<br>
+However, Javascript also has asynchronous behavior. This is what allows us to use setTimeout,AJAX, and promises. These fuctions are handled by the browser, not by Javascript itself. This is what allows Javascript to be non-blocking for main thread operations 
 </details> -->
 
 # Linux Commands List
@@ -203,33 +205,5 @@ how to copy paste to file this location to another location
 
 ```
 cp <file> /dest/path
-
-cp ../<file> . : ek folder pise jake file name type karake space deke "." type kiya to oh file curent folder me copy ho gati hai 
-cp ../<filename> . : "." current folder ko present karata hai 
 ```
 </details>
-
-<details>
-<summary>How to copy content of a file to another file in linux</summary>
-
-```
-cp fileA file B
-```
-</details> 
-
-<details>
-<summary>how to cut-paste file one folder to another folder</summary>
-
-```
-mv <file> /dest/path/
-```
-</details> 
-
-
-<details>
-<summary>How to rename file</summary>
-
-```
-mv <filename> <newfilename>
-```
-</details> 
