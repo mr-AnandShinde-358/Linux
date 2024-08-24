@@ -1,0 +1,20 @@
+Commands.md
+Linux in One Video.pdf
+archive
+at_demo.txt
+fileA
+fileB
+files_in_location.txt
+myfiles.tar.gz
+myscript.sh
+newFILE
+newFolder
+sensentive
+sortdemo.txt
+test.txt
+typescript
+username.csv
+xaa
+xab
+xac
+/media/anand/New Volume/programing/DevOps/Linux Full Course

@@ -946,3 +946,155 @@ nohup ./script >/dev/null &
 ```
 
 </details>
+
+
+## Networking Info
+
+<details>
+<summary> How to check IP of your machine?</summary>
+
+``` 
+ifconfig
+```
+
+</details>
+
+<details>
+<summary> How to check if a serrver or website is accesible or not?</summary>
+
+``` 
+ping www.google.com
+```
+
+</details>
+
+<details>
+<summary> How to check if a IP:PORT is accessible and open or not?</summary>
+
+``` 
+telnet IP Port
+```
+
+</details>
+
+<details>
+<summary> How to check if port is open or not on our server?</summary>
+
+``` 
+netstat -putan | grep 80
+```
+
+</details>
+
+<details>
+<summary> How to check all hubs in network path to reach a website?</summary>
+
+``` 
+traceroute
+```
+
+</details>
+
+<details>
+<summary> How to restart our linux server?</summary>
+
+``` 
+reboot
+```
+
+</details>
+
+<details>
+<summary> How to shutdown our linux server?</summary>
+
+``` 
+shutdown
+```
+
+</details>
+
+## User Management Commands
+
+<details>
+<summary> How to create a new user on our linux server</summary>
+
+``` 
+useradd
+```
+
+</details>
+
+
+<details>
+<summary> How to create a password  new user on our linux server</summary>
+
+``` 
+passwd user
+```
+
+</details>
+
+<details>
+<summary> How to create a new group on our linux server?</summary>
+
+``` 
+groupadd
+```
+
+</details>
+
+<details>
+<summary> How to check UserID or GroupID of a user?</summary>
+
+``` 
+id user
+```
+
+</details>
+
+<details>
+<summary> How to delete a user or group?</summary>
+
+``` 
+userdel <user>
+groupdel <group>
+```
+
+</details>
+
+
+
+<details>
+<summary> How to change /add   user in  group?</summary>
+
+``` 
+usermod -G <Group name> < username>
+usermod -G TESTING alex
+```
+
+</details>
+
+
+<details>
+<summary> How to schedule a script to run on a particular date/time?</summary>
+
+``` 
+at
+atq : check command exicute or not
+crontab
+```
+
+</details>
+
+<details>
+<summary> when you want to shear all file or folder name in your folder | redirect command output into any file "comnad >"</summary>
+
+``` 
+ls > <file_name>
+
+# go to folder type ls> file.txt create new file file.txt
+
+pwd >> file_name # when you want add more out in this not use ">" becase its remove your old out
+```
+
+</details>
