@@ -678,3 +678,107 @@ echo "ABCDE" | fold -w1
 ```
 
 </details>
+
+## user releted commands
+
+<details>
+<summary> How to change user or login as different user in Linuxx?</summary>
+
+``` 
+su <user_name>
+```
+
+</details>
+
+<details>
+<summary> How to exit as current user or close terminal in Linux?</summary>
+
+``` 
+exit
+```
+
+</details>
+
+<details>
+<summary> if you are not a root user, how to execute admin commands like installing new apps?</summary>
+
+``` 
+sudo yum install httpd
+```
+
+</details>
+
+## Access Remote Servers
+
+<details>
+<summary> How to acces remote Linux server?</summary>
+
+``` 
+ssh user@hostname
+```
+
+</details>
+
+<details>
+<summary> How to copy a file to a remote Linux server?</summary>
+
+``` 
+scp file user@hostname:/tmp/
+```
+
+</details>
+
+## working with Permissions
+
+<details>
+<summary> How to check permissions of a file?</summary>
+
+``` 
+ls -ltr
+rwx rw- r--
+rwx - read write and execute
+rw - read write
+r - read
+
+user
+group
+other
+```
+
+</details>
+
+
+<details>
+<summary> How to modify permissions of a file?</summary>
+
+``` 
+chmod a+rwx file.txt
+
+u - user, g - group, o-other
+a-all
+
++ : means permision add kar rahe ho 
+- : permision nikal rahe ho
+```
+
+</details>
+
+
+<details>
+<summary> How to change ownership of a file?</summary>
+
+``` 
+chown root file.txt
+```
+
+</details>
+
+<details>
+<summary> How to change group ownership of a file?</summary>
+
+``` 
+chgrp root file.txt
+```
+
+</details>
+
