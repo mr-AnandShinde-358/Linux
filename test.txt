@@ -1,0 +1,4 @@
+UPPER LETTER
+lower letter
+Punct -$%@
+Digit - 12345

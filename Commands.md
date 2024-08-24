@@ -582,3 +582,99 @@ systemctl list-units --type=service --all
 ```
 
 </details>
+
+## Environment Variables check and set
+
+<details>
+<summary> How to list all existing Enviroment Variables on Linux?</summary>
+
+``` 
+printenv
+```
+
+</details>
+
+<details>
+<summary> How to Add a new Enviroment variable on  Linux?</summary>
+
+``` 
+export JAVA_HOME="/user/lib/jvm/java_v"
+export PATH=$JAVA_HOME/bin:$path
+```
+
+</details>
+
+
+<details>
+<summary> How to print a specific column in csv file?</summary>
+
+``` 
+awk -F, '{print $2 }' file.csv
+```
+
+</details>
+
+<details>
+<summary> How to display starting two characters of all line?</summary>
+
+``` 
+cut -c1-2 file.txt
+```
+
+</details>
+<details>
+<summary> How to display a specific line from a file?</summary>
+
+``` 
+sed -n '5p' file.txt
+```
+
+</details>
+
+<details>
+<summary> How to replace a specific word within a file </summary>
+changes is not  parment its only on terminal
+
+``` 
+sed  's/from/to/g' file.txt
+
+s-suptitube
+g-gobal
+```
+
+</details>
+
+<details>
+<summary> How to convert the content to Uppercase to Lowercase within a file</summary>
+
+
+``` 
+tr [:lower:] [:upper:] <file.txt # upper case to lower case
+tr [:punct:] Z <file.txt # punchewation all
+tr [:digit:] z <file.txt # digit change all
+
+tr -d % <file.txt # when you want delete sumthing
+tr "%" "&" <file.txt # when you want replace sumthing
+```
+
+</details>
+
+
+<details>
+<summary> How to extend or shrink size of a file?</summary>
+
+
+``` 
+truncate -s 100M file.txt
+```
+
+</details>
+
+<details>
+<summary> How to display following line in vertical line? ABCDE</summary>
+
+``` 
+echo "ABCDE" | fold -w1
+```
+
+</details>
