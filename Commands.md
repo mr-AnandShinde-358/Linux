@@ -782,3 +782,167 @@ chgrp root file.txt
 
 </details>
 
+## Memory Info
+
+<details>
+<summary> How to check free RAM space?</summary>
+
+``` 
+free
+free -h
+free -th
+```
+
+</details>
+
+<details>
+<summary> How to check % Memory and CPU Utilization?</summary>
+
+``` 
+top
+```
+
+</details>
+
+<details>
+<summary> How to check disk Utilization?</summary>
+
+``` 
+du
+```
+
+</details>
+
+<details>
+<summary> How to check filesystem available and disk space allocated?</summary>
+
+``` 
+df 
+df -h
+```
+
+</details>
+
+## System INFO
+
+<details>
+<summary> How to check hostname of your linux server</summary>
+
+``` 
+hostname
+```
+
+</details>
+<details>
+<summary> How to check cpu/core/thread info of your linux server?</summary>
+
+``` 
+lscpu
+```
+
+</details>
+
+<details>
+<summary> How to check type of architecture of your linux server?</summary>
+
+``` 
+arch
+```
+
+</details>
+<details>
+<summary> How to see list of storage devices, disk partition on your linux server?</summary>
+
+``` 
+lsblk
+```
+
+</details>
+
+
+<details>
+<summary> How to see OS name of linux server?</summary>
+
+``` 
+uname -a
+
+cat /etc/os-release
+```
+
+</details>
+
+
+## process Management
+
+<details>
+<summary> How to check if a process(java) is running or not?</summary>
+
+``` 
+ps -ef | grep java
+```
+
+</details>
+
+<details>
+<summary> How to get PID of a process?</summary>
+
+``` 
+pgrep chron
+```
+
+</details>
+
+<details>
+<summary> How to stop a process by PID?</summary>
+
+``` 
+kill -9 PID
+```
+
+</details>
+
+
+<details>
+<summary> How to stop a process by its name?</summary>
+
+``` 
+pkill httpd
+```
+
+</details>
+<details>
+
+<summary> How to see all the active jobs</summary>
+
+``` 
+jobs
+```
+
+</details>
+
+<details>
+<summary> How to resume a job in background?</summary>
+
+``` 
+bg
+```
+
+</details>
+
+<details>
+<summary> How to resume a job in foreground?</summary>
+
+``` 
+fg
+```
+
+</details>
+
+<details>
+<summary> How to run a script in background </summary>
+
+``` 
+nohup ./script >/dev/null &
+```
+
+</details>
